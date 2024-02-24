@@ -21,9 +21,10 @@ import {
     shopify,
 
     carrent,
-    jobit,
+    // jobit,
     tripguide,
     threejs,
+    jobit,
   } from "../assets";
   
   export const navLinks = [
@@ -47,15 +48,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Flutter Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Data Structures & Algorithms",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Competitive Coder",
       icon: creator,
     },
   ];
@@ -130,7 +131,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "Flutter Developer",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -219,6 +220,26 @@ import {
       image: carrent,
       source_code_link: "https://github.com/DKPCODER/Portfolio",
     },
+    {
+      name: "WallPaper App",
+      description:
+      "The app seamlessly integrates with external APIs to provide users with a wide range of wallpapers to choose from. It offers convenient downloading options for offline use, enhancing accessibility. Moreover, users can effortlessly customize their wallpapers within the app, ensuring a personalized and engaging experience for all.",             tags: [
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Dart",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/DKPCODER/Portfolio",
+    },
     // {
     //   name: "Job IT",
     //   description:
@@ -240,27 +261,26 @@ import {
     //   image: jobit,
     //   source_code_link: "https://github.com/",
     // },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "CHAT APP",
+      description:
+   "    Tech Stack: Flutter, Dart, Firebase, UI/UX. Find Live Link on GitHub. It facilitates real-time messaging for one-on-one and group chats, ensuring instant updates. Users can personalize profiles by uploading photos, enriching their identity. Additionally, it ensures data privacy and user security through Firebase Authentication." ,      tags: [
+       {
+       name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

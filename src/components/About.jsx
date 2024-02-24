@@ -7,6 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+// eslint-disable-next-line react/prop-types
 const ServiceCard = ({ index, title, icon }) => (
   <Tilty className='xs:w-[250px] w-full'>
     <motion.div
@@ -14,6 +15,7 @@ const ServiceCard = ({ index, title, icon }) => (
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
+        // eslint-disable-next-line react/no-unknown-property
         options={{
           max: 45,
           scale: 1,
@@ -47,11 +49,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      
+
+I am Deepak Kumar Prabhat, a seasoned software developer with expertise in both front-end and mobile application development. Skilled in TypeScript and JavaScript frameworks like React, Node.js, and Flutter, I specialize in creating dynamic and immersive user experiences across web and mobile platforms. With proficiency in Firebase, I ensure secure authentication and real-time data management for seamless user interactions. My command over HTML, CSS, and JavaScript allows me to craft intuitive interfaces that captivate and engage users. I am passionate about translating ideas into functional, visually appealing solutions that leave a lasting impact. Let's team up to transform your vision into reality with precision and ingenuity!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
